@@ -1,0 +1,7 @@
+queue <string> q;
+    q.push("ab");
+    q.push("cd");
+    while (!q.empty()) {
+        cout << q.front() << endl;
+        q.pop();
+    }
